@@ -1,0 +1,30 @@
+{
+  "original_features": [
+    "proto",
+    "sport",
+    "dport",
+    "stddev",
+    "N_IN_Conn_P_SrcIP",
+    "min",
+    "state_number",
+    "mean",
+    "N_IN_Conn_P_DstIP",
+    "drate",
+    "srate",
+    "max"
+  ],
+  "meta_features": [
+    "primary_p_attack",
+    "leaf_match_rate",
+    "NN1_distance",
+    "NN3_distance"
+  ],
+  "proto_mapping": {
+    "arp": 0,
+    "icmp": 1,
+    "ipv6-icmp": 2,
+    "tcp": 3,
+    "udp": 4
+  },
+  "port_handling": "Decimal and hexadecimal ports converted to numeric; -1 retained for ARP."
+}

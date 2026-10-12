@@ -1,0 +1,20 @@
+{
+  "random_state": 42,
+  "primary_model": "LightGBM",
+  "primary_normal_weight": 400.0,
+  "primary_trees": 125,
+  "primary_threshold": 0.5,
+  "router_probability_operator": "<",
+  "router_probability_threshold": 0.5,
+  "router_rescue_type": "NN1",
+  "router_NN1_operator": "<=",
+  "router_NN1_threshold": 1.14508318901062,
+  "verifier_architecture": "Feature-token Residual Multi-Head Self-Attention",
+  "verifier_input_dim": 20,
+  "verifier_parameters": 18945,
+  "verifier_epochs": 29,
+  "verifier_threshold": 0.4,
+  "OOF_reference_FP": 9,
+  "OOF_reference_FN": 20,
+  "OOF_reference_MCC": 0.952059421095
+}

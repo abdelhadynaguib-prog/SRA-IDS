@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use SRA-IDS or its reproducibility artifacts, please cite this software and the associated paper."
+title: "SRA-IDS: Code and Reproducibility Artifacts"
+type: software
+authors:
+  - family-names: "Naguib"
+    given-names: "Abdelhady"
+version: "1.0.0"
+date-released: "2026-10-12"
+license: "MIT"
+repository-code: "TO-BE-ADDED-AFTER-GITHUB-REPOSITORY-CREATION"
+abstract: "Source code and reproducibility materials for the SRA-IDS selective LightGBM/residual-attention intrusion-detection framework evaluated on BoT-IoT."
+keywords:
+  - intrusion detection
+  - IoT security
+  - BoT-IoT
+  - LightGBM
+  - residual attention
+  - selective inference

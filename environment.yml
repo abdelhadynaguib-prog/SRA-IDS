@@ -1,0 +1,14 @@
+name: sra-ids
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - joblib
+  - pip
+  - pip:
+      - lightgbm
+      - tensorflow

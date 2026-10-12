@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sra-ids"
+version = "1.0.0"
+description = "Source code for SRA-IDS: a LightGBM-guided selective residual-attention IDS."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Abdelhady Naguib"}]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "lightgbm",
+  "tensorflow",
+  "scipy",
+  "joblib"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

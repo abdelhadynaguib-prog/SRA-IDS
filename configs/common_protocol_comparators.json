@@ -1,0 +1,33 @@
+{
+  "common_protocol": {
+    "train_rows": 2347854,
+    "validation_rows": 586963,
+    "train_normal": 296,
+    "train_attack": 2347558,
+    "validation_normal": 74,
+    "validation_attack": 586889,
+    "train_split_sha256": "d6eb077d2ea1a7b097a7d613f77e16f178673ef39eed09a23556e6c052b6a432",
+    "validation_split_sha256": "94a3a8bd36102dbc4cdb9fff684e809e5e06c3ffe87e4a55e72c59353566504c",
+    "common_threshold": 0.5,
+    "normal_weight": 400.0,
+    "attack_weight": 1.0,
+    "deep_seeds": [
+      42,
+      52,
+      62,
+      72,
+      82
+    ],
+    "primary_paired_deep_seed": 42,
+    "threshold_tuning_on_test": false
+  },
+  "models": [
+    "Random Forest",
+    "XGBoost",
+    "LightGBM",
+    "DNN",
+    "LSTM",
+    "CNN-LSTM",
+    "Attention-CNN-LSTM"
+  ]
+}

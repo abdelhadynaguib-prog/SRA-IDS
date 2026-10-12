@@ -1,0 +1,2 @@
+System,Rows,TN,FP,FN,TP,Errors,Balanced_Accuracy,MCC,Normal_F1,Attack_F1
+Frozen Hybrid,730221,99,2,7,730113,9,0.9900942162,0.9567948174,0.9565217391,0.9999938366
