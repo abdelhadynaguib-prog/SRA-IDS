@@ -1,7 +1,7 @@
 # SRA-IDS
 
 **SRA-IDS: A LightGBM-Guided Selective Residual-Attention Framework for Intrusion Detection in Highly Imbalanced IoT Networks**
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23323669.svg)](https://doi.org/10.5281/zenodo.23323669)
 This repository contains the source code, frozen configuration, compact result tables, statistical summaries, and integrity metadata supporting the SRA-IDS study on the BoT-IoT dataset.
 
 ## Method summary
