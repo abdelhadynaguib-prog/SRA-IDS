@@ -1,0 +1,14 @@
+File,Classification,Status
+reproduction/common.py,Method-faithful shared helper,PASS
+reproduction/01_prepare_development_split.py,Method-faithful reorganization,PASS
+reproduction/02_primary_strict_nested_oof.py,Method-faithful reorganization,PASS
+reproduction/03_oof_context_signals.py,Method-faithful reorganization,PASS
+reproduction/04_select_router_build_verifier.py,Method-faithful reorganization,PASS
+reproduction/05_verifier_strict_nested_oof.py,Method-faithful reorganization,PASS
+reproduction/06_select_verifier_threshold.py,Method-faithful reorganization,PASS
+reproduction/07_train_final_sra.py,Method-faithful reorganization,PASS
+reproduction/08_run_official_test.py,Orchestration wrapper,PASS
+reproduction/09_train_common_protocol_comparators.py,Method-faithful reorganization,PASS
+reproduction/10_evaluate_common_protocol_comparators.py,Method-faithful reorganization,PASS
+reproduction/11_exact_overlap_audit.py,Method-faithful reorganization,PASS
+reproduction/12_paired_statistics.py,Method-faithful reorganization,PASS
