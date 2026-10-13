@@ -1,9 +1,13 @@
 # SRA-IDS
 [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23347999.svg)](https://doi.org/10.5281/zenodo.23347999)
 [![Artifacts DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23324288.svg)](https://doi.org/10.5281/zenodo.23324288)
+
 **SRA-IDS: A LightGBM-Guided Selective Residual-Attention Framework for Intrusion Detection in Highly Imbalanced IoT Networks**
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23347999.svg)](https://doi.org/10.5281/zenodo.23347999)
-This repository contains the source code, frozen configuration, compact result tables, statistical summaries, and integrity metadata supporting the SRA-IDS study on the BoT-IoT dataset.
+
+This repository contains the source code, frozen configuration, compact result tables,
+statistical summaries, and integrity metadata supporting the SRA-IDS study on the
+BoT-IoT dataset.
+
 ## Archived releases
 
 - Source code and full reproduction workflow v1.1.0:
