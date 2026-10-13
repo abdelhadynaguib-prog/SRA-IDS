@@ -5,9 +5,10 @@ type: software
 authors:
   - family-names: "Naguib"
     given-names: "Abdelhady"
-version: "1.0.0"
-doi: "10.5281/zenodo.23323669"
-date-released: "2026-10-12"
+    orcid: "https://orcid.org/0000-0001-5220-6789"
+version: "1.1.0"
+doi: "10.5281/zenodo.23347999"
+date-released: "2026-10-13"
 license: "MIT"
 repository-code: "https://github.com/abdelhadynaguib-prog/SRA-IDS"
 abstract: "Source code and reproducibility materials for the SRA-IDS selective LightGBM/residual-attention intrusion-detection framework evaluated on BoT-IoT."
